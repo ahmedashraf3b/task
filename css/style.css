@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+}
+nav {
+  color: black;
+}
+.header-1 {
+  background-image: url(../imgs/imgs/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+.section {
+  background-color: rgba(0, 0, 0, 0.622);
+  height: 100vh;
+}
+.cont h1 {
+  font-size: 4rem;
+  margin-bottom: 3px;
+}
+.cont span {
+  font-size: 4rem;
+}
+.cont span::after {
+  content: "Developer |";
+  animation-name: animthon;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes animthon {
+  0% {
+    content: "|";
+  }
+  25% {
+    content: "De|";
+  }
+  50% {
+    content: "Deve|";
+  }
+  75% {
+    content: "Develo|";
+  }
+  100% {
+    content: "Developer|";
+  }
+}
+.botton:hover {
+  background-color: rgba(240, 248, 255, 0);
+  color: black;
+}
+
+.afterr {
+  background-image: url(../imgs/imgs/dots.png);
+  background-position: center center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: -35px;
+  left: -35px;
+  opacity: 0.06;
+}
+.addres {
+  background-image: url(../imgs/imgs/dots.png);
+  background-position: center center;
+  background-size: cover;
+  width: 100px;
+  height: 50px;
+  opacity: 0.09;
+  position: absolute;
+  bottom: -5px;
+}
+.icon-service {
+  width: 70px;
+  height: 70px;
+  font-size: 2rem !important;
+  background-color: #f1f1f1 !important;
+  transition-duration: 0.4s;
+  transition-delay: 0.2s;
+}
+.icon-service-1:hover i {
+  background-color: black !important;
+  color: rgb(255, 255, 255);
+}
+.shadow-1 {
+  box-shadow: 1px 1px 17px rgba(166, 158, 158, 0.412);
+}
+.img-1 {
+  background-image: url(../imgs/imgs/portfolio/1.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+.img-2 {
+  background-image: url(../imgs/imgs/portfolio/2.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+.img-3 {
+  background-image: url(../imgs/imgs/portfolio/3.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+.img-4 {
+  background-image: url(../imgs/imgs/portfolio/4.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+.img-5 {
+  background-image: url(../imgs/imgs/portfolio/5.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+.img-6 {
+  background-image: url(../imgs/imgs/portfolio/6.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+.hover {
+  background-color: rgba(255, 255, 255, 0.799);
+  width: 100%;
+  height: 290px;
+  opacity: 0;
+  transition-delay: 0.3s;
+  transition-duration: 0.3s;
+}
+.img-1:hover .hover {
+  opacity: 1;
+}
+.img-2:hover .hover {
+  opacity: 1;
+}
+.img-3:hover .hover {
+  opacity: 1;
+}
+.img-4:hover .hover {
+  opacity: 1;
+}
+.img-5:hover .hover {
+  opacity: 1;
+}
+.img-6:hover .hover {
+  opacity: 1;
+}
+.hover i {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+}
+.hover i:hover{
+  background-color: white !important;
+  color: black !important;
+}
+.pg{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.namber-icon i{
+  font-size: 30px;
+
+}
+.hover-our-team{
+  background-color: rgba(255, 255, 255, 0.91);
+  width: 98%;
+  height: 98% !important;
+position: absolute;
+left: 5px;
+top: 5px;
+}
+.icon-our-team{
+  font-size:  20px;
+}
+
+.icon-our-team-1{
+  transition: 0.5s;
+  opacity: 0;
+  transform: rotateY(-180deg) scale(0.5, 0.5);
+}
+.card:hover .icon-our-team-1 {
+  transform: rotateY(-360deg);
+  opacity: 1;
+}
+.card img{
+  transition: 0.5s;
+}
+.card:hover img{
+  transform: scale(1.2);
+}
+.icon-our-team i{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+.icon-our-team i:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 3px solid black;
+  border-radius: 50%;
+}
+.ending i{
+  transition: 0.4s;
+}
+.ending:hover i{
+  background-color: rgba(23, 23, 23, 0.982) !important;
+  color: white !important;
+}
+.ending-2{
+  height: 5px;
+  width: 100%;
+}
+.ending-3{
+  width: 97%;
+  height: 190px;
+}
+.width{
+  width: 140px;
+}
